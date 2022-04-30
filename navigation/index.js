@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Providers from "./navigation";
+import Routes from "./Routes";
 
-const App = () => {
-  return <Providers />;
+const Providers = () => {
+  return <Routes />;
 };
 
-export default App;
+export default Providers;
 
 const styles = StyleSheet.create({});

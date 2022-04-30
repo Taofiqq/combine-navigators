@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Providers from "./navigation";
 
-const App = () => {
-  return <Providers />;
+const Predictor = () => {
+  return (
+    <View>
+      <Text>Predictor</Text>
+    </View>
+  );
 };
 
-export default App;
+export default Predictor;
 
 const styles = StyleSheet.create({});

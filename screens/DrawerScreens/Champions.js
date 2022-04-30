@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Providers from "./navigation";
 
-const App = () => {
-  return <Providers />;
+const Champions = () => {
+  return (
+    <View>
+      <Text>Champions</Text>
+    </View>
+  );
 };
 
-export default App;
+export default Champions;
 
 const styles = StyleSheet.create({});

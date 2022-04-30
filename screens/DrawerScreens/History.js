@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Providers from "./navigation";
 
-const App = () => {
-  return <Providers />;
+const History = () => {
+  return (
+    <View>
+      <Text>History</Text>
+    </View>
+  );
 };
 
-export default App;
+export default History;
 
 const styles = StyleSheet.create({});

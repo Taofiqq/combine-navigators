@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Providers from "./navigation";
 
-const App = () => {
-  return <Providers />;
+const WomenTeam = () => {
+  return (
+    <View>
+      <Text>WomenTeam</Text>
+    </View>
+  );
 };
 
-export default App;
+export default WomenTeam;
 
 const styles = StyleSheet.create({});
